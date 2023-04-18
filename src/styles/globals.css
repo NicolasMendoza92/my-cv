@@ -105,3 +105,159 @@ a {
     color-scheme: dark;
   }
 }
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  min-height: 100vh;
+}
+
+.img-body {
+  max-width: 300px;
+}
+
+/* glass card css */
+
+.glassCard {
+  backdrop-filter: blur(10px) saturate(180%);
+  -webkit-backdrop-filter: blur(10px) saturate(180%);
+  background-color: #232b3a88;
+  border: none !important;
+}
+
+.glassCard:hover {
+  backdrop-filter: blur(10px) saturate(180%);
+  -webkit-backdrop-filter: blur(10px) saturate(180%);
+  background-color: #4661bbbc;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  color: white;
+  cursor: pointer;
+}
+
+/* ESTILO IMAGEN PRINCIPAL */
+.contenedorImg{
+  background-image: url(https://p4.wallpaperbetter.com/wallpaper/876/437/102/blue-material-material-design-minimal-art-wallpaper-preview.jpg);
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  padding: 2rem;
+  color: rgb(241, 240, 240);
+}
+.contenedor-divs{
+  background-image: url(https://res.cloudinary.com/dbv6dgwez/image/upload/v1681740464/CV/wallpaper_blue_oil17t.jpg);
+  text-align: center;
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  padding: 1rem;
+  color: rgb(250, 250, 250);
+}
+
+.div-projects{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.card-img {
+  height: 100% !important;
+}
+
+.col-icons {
+
+  width: 20px;
+}
+
+.photo-cv{
+  max-width: 500px;
+  max-height: 500px;
+}
+
+@media only screen and (max-width: 992px) {
+
+ .photo-cv{
+   max-width: 300px;
+   max-height: 300px;
+ }
+
+}
+@media only screen and (max-width: 767px) {
+
+  .icon-top{
+    font-size: 20px;
+  }
+
+  .card-title {
+   font-size: 10px;
+  }
+  .card-text {
+   font-size: 8px;
+  }
+  .main-text{
+    font-size: 11px;
+  }
+ 
+ }
+
+ .link-empresa{
+  cursor: pointer;
+}
+
+.link-empresa:hover{
+  background-color: #4661bbbc;
+  color: white;
+}
+
+.divider{
+  background-size: cover !important;
+  color: whitesmoke;
+  overflow: hidden;
+  width: 100%;
+  border: none;
+  padding: 2rem;
+  background-image: url(https://res.cloudinary.com/dbv6dgwez/image/upload/v1681740464/CV/wallpaper_blue_oil17t.jpg);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.divider-nav{
+  margin: 0;
+  background-size: cover !important;
+  color: whitesmoke;
+  overflow: hidden;
+  width: 100%;
+  border: none;
+  padding: 0.5rem;
+  background-color: grey;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.goback{
+  color: white;
+  font-size: 30px;
+  padding: none;
+  cursor: pointer;
+}
+/* intentos de gsap animation */
+.scroll-section-outer {
+  overflow: hidden;
+}
+
+.scroll-section-inner {
+  height: 100vh;
+  width: 400vw;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.scroll-section {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
