@@ -21,6 +21,10 @@ const Cursos = () => {
         const newWindow = window.open('https://allcottrading.com/');
         if (newWindow) newWindow.opener = null
     }
+    const goToRick = () => {
+        const newWindow = window.open('https://nextjs-demo-jade-pi.vercel.app/');
+        if (newWindow) newWindow.opener = null
+    }
 
 
     return (
@@ -56,6 +60,17 @@ const Cursos = () => {
                             <div className="glassCard">
                             <h5 className="card-title">Wordpress Project</h5>
                             <p className="card-text">Business page</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-6 col-lg-4 d-flex justify-content-center">
+                    <div onClick={goToRick} className="card bg-dark text-white m-2" style={{ width: '25rem', border: 'none' }}>
+                        <img src="https://res.cloudinary.com/dbv6dgwez/image/upload/v1684846613/RickMorty/r_m_wallpaper_bukdib.jpg" className="card-img" alt="..." />
+                        <div className="card-img-overlay">
+                            <div className="glassCard">
+                            <h5 className="card-title">Rick&Morty Project</h5>
+                            <p className="card-text">API request</p>
                             </div>
                         </div>
                     </div>

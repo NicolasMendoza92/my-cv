@@ -32,7 +32,7 @@ const Projects = () => {
                         <div className="card-body">
                             <h5 className='card-title'>Digital Skills</h5>
                             <p className='card-text'>
-                                Microsoft Office/CRM Manager Apps/SAP/Corel Draw/Visual Studio/Data analyst
+                                Microsoft Office/CRM Manager Apps/SAP/Corel Draw/Visual Studio/Data analyst/Scrum
                             </p>
                         </div>
                     </div>
