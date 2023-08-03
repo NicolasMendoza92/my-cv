@@ -52,7 +52,7 @@ const Cursos = () => {
                 </div>
                 <div className="col 12 col-md-6 col-lg-4 d-flex justify-content-center">
                     <div onClick={ecommerceFront} className="card bg-dark text-white m-2" style={{ width: '25rem',height:"12rem", border: 'none' }}>
-                        <img src="https://res.cloudinary.com/dbv6dgwez/image/upload/v1691061919/front_ecommerce_xaao8c.png" className="card-img" alt="..." />
+                        <img src="https://res.cloudinary.com/dbv6dgwez/image/upload/v1691061919/CV/front_ecommerce_xaao8c.png" className="card-img" alt="..." />
                         <div className="card-img-overlay">
                             <div className="glassCard">
                             <h5 className="card-title">Front ecommerce project</h5>
@@ -63,7 +63,7 @@ const Cursos = () => {
                 </div>
                 <div className="col 12 col-md-6 col-lg-4 d-flex justify-content-center">
                     <div onClick={ecommerceAdmin} className="card bg-dark text-white m-2" style={{ width: '25rem',height:"12rem", border: 'none' }}>
-                        <img src="https://res.cloudinary.com/dbv6dgwez/image/upload/v1691061779/admin_ecommerce_z6nhs9.png" className="card-img" alt="..." />
+                        <img src="https://res.cloudinary.com/dbv6dgwez/image/upload/v1691061779/CV/admin_ecommerce_z6nhs9.png" className="card-img" alt="..." />
                         <div className="card-img-overlay">
                             <div className="glassCard">
                             <h5 className="card-title">Adminboard project</h5>
