@@ -32,89 +32,142 @@ a {
 }
 
 .img-body {
+  border-radius: 2px;
   max-width: 300px;
 }
 
-/* glass card css */
-
-.glassCard {
-  backdrop-filter: blur(10px) saturate(180%);
-  -webkit-backdrop-filter: blur(10px) saturate(180%);
-  background-color: #232b3a88;
-  border: none !important;
-}
-
-.glassCard:hover {
-  backdrop-filter: blur(10px) saturate(180%);
-  -webkit-backdrop-filter: blur(10px) saturate(180%);
-  background-color: #4661bbbc;
-  border: 1px solid rgba(255, 255, 255, 0.125);
-  color: white;
-  cursor: pointer;
-}
 
 /* ESTILO IMAGEN PRINCIPAL */
 .contenedorImg{
-  background-image: url(https://p4.wallpaperbetter.com/wallpaper/876/437/102/blue-material-material-design-minimal-art-wallpaper-preview.jpg);
+  /* background-image: url(https://p4.wallpaperbetter.com/wallpaper/876/437/102/blue-material-material-design-minimal-art-wallpaper-preview.jpg); */
+  background-color: white;
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
-  padding: 2rem;
-  color: rgb(241, 240, 240);
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: rgb(0, 160, 227);
 }
 .contenedor-divs{
-  background-image: url(https://res.cloudinary.com/dbv6dgwez/image/upload/v1681740464/CV/wallpaper_blue_oil17t.jpg);
+  background-color:white ;
   text-align: center;
   background-size: cover;
   width: 100%;
   background-repeat: no-repeat;
   overflow: hidden;
-  padding: 1rem;
-  color: rgb(250, 250, 250);
+  padding: 2rem;
+  color: rgb(0, 160, 227);
 }
-
+.about-section{
+  background-color: rgb(0, 160, 227);
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  padding: 4rem;
+  color: white;
+}
 .div-projects{
-  margin-top: 100px;
-  margin-bottom: 100px;
+  background-color:rgb(0, 160, 227) ;
+  text-align: center;
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  padding: 3rem;
+  color: white;
 }
 
-.card-img {
-  height: 100% !important;
+.main-text{
+  font-size:20px;
+}
+.desc-text{
+  font-size:24px;
 }
 
-.col-icons {
-
-  width: 20px;
+.cardo_project {
+  cursor: pointer;
 }
+
+
+.card-img-top {
+  height: 40% !important;
+}
+
 
 .photo-cv{
-  max-width: 500px;
-  max-height: 500px;
+  max-width: 400px;
+  max-height: 200px;
 }
+.icon-desktop{
+  margin-top: 50px;
+  max-width: 1100px;
+  max-height: 700px;
+}
+
+.card-title {
+  color:rgb(0, 160, 227);
+  font-weight: bold;
+  font-size: 24px;
+ }
+ 
+ .card-text {
+  color:rgb(0, 160, 227) ;
+  font-size: 20px;
+ }
+
 
 @media only screen and (max-width: 992px) {
 
  .photo-cv{
-   max-width: 300px;
-   max-height: 300px;
+  max-width: 400px;
+  max-height: 200px;
  }
+ .icon-desktop{
+  max-width: 400px;
+  max-height: 200px;
+}
+.about-section{
+  padding: 2rem;
+}
+.contenedor-divs{
+  padding: 0rem;
+}
 
 }
 @media only screen and (max-width: 767px) {
 
   .icon-top{
     font-size: 20px;
+  } 
+  .card-img {
+    height: 80% !important;
+  }
+  .cardo_project {
+    height: 6rem !important;
   }
 
+  .card-img-top {
+    height: 40% !important;
+  }
+
+  .cardo{
+    display: none;
+  }
+  
   .card-title {
-   font-size: 10px;
+   font-size: 12px;
   }
   .card-text {
-   font-size: 8px;
+   font-size: 10px;
   }
   .main-text{
     font-size: 11px;
+  }
+  .desc-text{
+    font-size:14px;
   }
 
  }
