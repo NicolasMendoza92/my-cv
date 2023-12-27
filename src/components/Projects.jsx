@@ -115,6 +115,7 @@ const Projects = () => {
                         <div className="card-body m-auto">
                             <h5 className="card-title">Stock management </h5>
                             <p className="card-text">Utility app - Operational page</p>
+                            <p className="card-note"><b>Login as:</b> demo@gmail.com <b>pass:</b> Demo1234</p>
                             <div className="d-flex flex-wrap gap-1 mt-2">
                                 <button onClick={goToInventory} className="btn btn-primary">See web</button>
                                 <button onClick={goSourceInventory} className="btn btn-secondary">Source code</button>
