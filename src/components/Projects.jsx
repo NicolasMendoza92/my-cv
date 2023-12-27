@@ -38,6 +38,14 @@ const Projects = () => {
         const newWindow = window.open('https://github.com/NicolasMendoza92/Rick-MortyAPIRequest');
         if (newWindow) newWindow.opener = null
     }
+    const goToBlog = () => {
+        const newWindow = window.open('https://my-first-blog-nextjs-ruby.vercel.app/');
+        if (newWindow) newWindow.opener = null
+    }
+    const goSourceBlog = () => {
+        const newWindow = window.open('https://github.com/NicolasMendoza92/my-blog-nextjs');
+        if (newWindow) newWindow.opener = null
+    }
     const ecommerceTechFront = () => {
         const newWindow = window.open('https://ecommerce-front-rust.vercel.app/');
         if (newWindow) newWindow.opener = null
@@ -123,6 +131,19 @@ const Projects = () => {
                             <div className="d-flex flex-wrap gap-1 mt-2">
                                 <button onClick={goToRick} className="btn btn-primary">See web</button>
                                 <button onClick={goSourceRick} className="btn btn-secondary">Source code</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className=" d-flex justify-content-center">
+                    <div className="card cardo_project" style={{ width: '18rem', height: '18rem', background: 'white' }}>
+                        <img src="https://res.cloudinary.com/dbv6dgwez/image/upload/v1703699568/blog_project_shxuiz.png" className="card-img-top cardo" alt="..." />
+                        <div className="card-body m-auto">
+                            <h5 className="card-title">Blog page project</h5>
+                            <p className="card-text">Create & edit posts</p>
+                            <div className="d-flex flex-wrap gap-1 mt-2">
+                                <button onClick={goToBlog} className="btn btn-primary">See web</button>
+                                <button onClick={goSourceBlog} className="btn btn-secondary">Source code</button>
                             </div>
                         </div>
                     </div>
