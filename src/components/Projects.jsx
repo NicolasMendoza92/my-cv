@@ -17,7 +17,14 @@ const Projects = () => {
         const newWindow = window.open('https://github.com/NicolasMendoza92/allcot-inventary');
         if (newWindow) newWindow.opener = null
     }
-
+    const linkTreePage = () => {
+        const newWindow = window.open('https://vercel.com/nicolasmendoza92/link-tree-clone');
+        if (newWindow) newWindow.opener = null
+    }
+    const goSourceLinkTree = () => {
+        const newWindow = window.open('https://github.com/NicolasMendoza92/LinkTree-Clone');
+        if (newWindow) newWindow.opener = null
+    }
     const goToCoco = () => {
         const newWindow = window.open('https://coco-mad-react.vercel.app/');
         if (newWindow) newWindow.opener = null
@@ -78,6 +85,19 @@ const Projects = () => {
                             <div className="d-flex flex-wrap gap-1 mt-2">
                                 <button onClick={goToCoco} className="btn btn-primary">See web</button>
                                 <button onClick={goSourceCoco} className="btn btn-secondary">Source code</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="d-flex justify-content-center">
+                    <div className="card cardo_project" style={{ width: '18rem', height: '18rem', background: 'white' }}>
+                        <img src="https://res.cloudinary.com/dbv6dgwez/image/upload/v1704380250/link-tree_home_mbbuyd.png" className="card-img-top cardo" alt="..." />
+                        <div className="card-body m-auto">
+                            <h5 className="card-title">Link-Tree clone app</h5>
+                            <p className="card-text">Web and Admin site</p>
+                            <div className="d-flex flex-wrap gap-1 mt-2">
+                                <button onClick={linkTreePage} className="btn btn-primary">See web</button>
+                                <button onClick={goSourceLinkTree} className="btn btn-secondary">Source code</button>
                             </div>
                         </div>
                     </div>
