@@ -18,7 +18,7 @@ const Projects = () => {
         if (newWindow) newWindow.opener = null
     }
     const linkTreePage = () => {
-        const newWindow = window.open('https://vercel.com/nicolasmendoza92/link-tree-clone');
+        const newWindow = window.open('https://link-tree-clone-cyan.vercel.app/');
         if (newWindow) newWindow.opener = null
     }
     const goSourceLinkTree = () => {
