@@ -9,6 +9,15 @@ const Projects = () => {
         Aos.init({ duration: 2000 })
     }, []);
 
+    const goToKanban = () => {
+        const newWindow = window.open('https://kanban-app-rho-blue.vercel.app/');
+        if (newWindow) newWindow.opener = null
+    }
+    const goSourceKanban = () => {
+        const newWindow = window.open('https://github.com/NicolasMendoza92/kanban-app');
+        if (newWindow) newWindow.opener = null
+    }
+
     const goToInventory = () => {
         const newWindow = window.open('https://allcot-inventary.vercel.app/');
         if (newWindow) newWindow.opener = null
@@ -111,6 +120,19 @@ const Projects = () => {
                             <div className="d-flex flex-wrap gap-1 mt-2">
                                 <button onClick={ecommerceTechFront} className="btn btn-primary">See web</button>
                                 <button onClick={goSourceTech} className="btn btn-secondary">Source code</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="d-flex justify-content-center">
+                    <div className="card cardo_project" style={{ width: '18rem', height: '18rem', background: 'white' }}>
+                        <img src="https://res.cloudinary.com/dbv6dgwez/image/upload/v1706966244/kanban_app_bfugfn.png" className="card-img-top cardo" alt="..." />
+                        <div className="card-body m-auto">
+                            <h5 className="card-title">My Kanban app</h5>
+                            <p className="card-text">TS and Liveblocks</p>
+                            <div className="d-flex flex-wrap gap-1 mt-2">
+                                <button onClick={goToKanban} className="btn btn-primary">See web</button>
+                                <button onClick={goSourceKanban} className="btn btn-secondary">Source code</button>
                             </div>
                         </div>
                     </div>

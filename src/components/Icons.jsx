@@ -5,7 +5,7 @@ const Icons = () => {
     return (
         <div className="contenedorImg">
             <h2 className='text-center '>Programming skills</h2>
-            <div className='d-flex flex-wrap justify-content-center m-3 align-content-center gap-1'>
+            <div className='d-flex flex-wrap justify-content-center m-3 align-items-center gap-1'>
                 <div className='' >
                     <img style={{ width: '3.5rem' }} src="https://res.cloudinary.com/dbv6dgwez/image/upload/v1700150237/CV/postman-icon-497x512-beb7sy75_fqaezs.png" />
                 </div>
@@ -23,6 +23,9 @@ const Icons = () => {
                 </div>
                 <div className=''>
                     <img style={{ width: '3.5rem' }} src="https://res.cloudinary.com/dbv6dgwez/image/upload/v1700150237/CV/JavaScript-logo_t5gnmn.png" />
+                </div>
+                <div className=''>
+                    <img style={{ width: '3.5rem' }} src="https://res.cloudinary.com/dbv6dgwez/image/upload/v1706966525/CV/ts_tiltir.png" />
                 </div>
                 <div className=''>
                     <img style={{ width: '3.7rem' }} src="https://res.cloudinary.com/dbv6dgwez/image/upload/v1678436828/CV/css_qftmcp.png" />
@@ -48,3 +51,4 @@ const Icons = () => {
 }
 
 export default Icons
+
