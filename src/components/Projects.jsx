@@ -136,7 +136,7 @@ const Projects = () => {
                 </div>
                 <div className="d-flex justify-content-center">
                     <div className="card cardo_project" style={{ width: '18rem', height: '18rem', background: 'white' }}>
-                        <img src="https://res.cloudinary.com/dbv6dgwez/image/upload/v1706966244/kanban_app_bfugfn.png" className="card-img-top cardo" alt="..." />
+                        <img src="https://res.cloudinary.com/dbv6dgwez/image/upload/v1708360480/kanban_k3si3t.png" className="card-img-top cardo" alt="..." />
                         <div className="card-body d-flex flex-column align-items-center justify-content-between">
                             <h5 className="card-title">My Kanban app</h5>
                             <p className="card-text">TS and Liveblocks</p>
