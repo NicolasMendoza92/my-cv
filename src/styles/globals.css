@@ -49,6 +49,12 @@ a {
   padding-right: 2rem;
   color: rgb(0, 160, 227);
 }
+.contenedor-skills{
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: rgb(0, 160, 227);
+}
 .contenedor-divs{
   background-color:white ;
   text-align: center;
@@ -85,6 +91,7 @@ a {
 }
 .desc-text{
   font-size:24px;
+text-align: justify;
 }
 
 .cardo_project {
@@ -100,6 +107,41 @@ a {
   width: 40% !important;
 }
 
+.btn-seeweb {
+  background: rgb(0, 160, 227);
+  padding: 5px;
+  color: whitesmoke;
+  border-color: rgb(0, 160, 227);
+  border-radius: 0.25rem;
+  transition: 0.4s;
+}
+
+.btn-seeweb:hover {
+  background: whitesmoke;
+  transition-duration: 0.5s;
+  padding: 5px;
+  color: rgb(0, 160, 227);
+  border-color: rgb(0, 160, 227);
+  border-radius: 0.25rem;
+}
+
+.btn-code {
+  background: rgb(145, 146, 147);
+  padding: 5px;
+  color: whitesmoke;
+  border-color: rgb(145, 146, 147);
+  border-radius: 0.25rem;
+  transition: 0.4s;
+}
+
+.btn-code:hover {
+  background: whitesmoke;
+  transition-duration: 0.5s;
+  padding: 5px;
+  color: rgb(145, 146, 147);
+  border-color: rgb(145, 146, 147);
+  border-radius: 0.25rem;
+}
 
 .photo-cv{
   max-width: 400px;
@@ -182,6 +224,7 @@ a {
   }
   .desc-text{
     font-size:14px;
+    text-align: left;
   }
 
  }

@@ -1,10 +1,9 @@
 
 import { useRouter } from "next/router";
-import { FaLinkedin } from 'react-icons/fa';
-import { FaNewspaper } from 'react-icons/fa';
 import Aos from "aos";
 import { useEffect } from "react";
 import "aos/dist/aos.css";
+import Image from "next/image";
 
 
 
@@ -19,16 +18,28 @@ const ImagenPrin = () => {
     return (
         <div data-aos="fade-up" className='contenedorImg'>
             <div className='d-flex justify-content-center'>
-                <h2 className='m-2'>Industrial engineer, Front and Back-end Developer & Data Scientist. </h2>
+                <h2 className='m-2'>Industrial engineer, Full Stack Developer & Data Scientist. </h2>
             </div>
             <p className="main-text">I love to design and create projects, apps and development work to make tasks easier.</p>
             <div className='d-flex justify-content-center'>
                 <div>
-                    <img className="photo-cv" src="https://res.cloudinary.com/dbv6dgwez/image/upload/v1700133115/CV/avatar_png_qxfwmf.png" alt="" />
+                <Image
+                    src='/images/avatar.png'
+                    alt='avatar'
+                    width={200}
+                    height={200}
+                    className='img-fluid'
+                />
                 </div>
             </div>
-            <div className="d-flex justify-content-center">
-                <img className="icon-desktop" src="https://res.cloudinary.com/dbv6dgwez/image/upload/v1700143622/CV/programming_rqdtbo.png" alt="" />
+            <div className="d-flex justify-content-center mt-2">
+            <Image
+                    src='/images/programming.png'
+                    alt='programming'
+                    width={1200}
+                    height={600}
+                    className='img-fluid'
+                />
             </div>
         </div>
     )
