@@ -103,6 +103,12 @@ text-align: justify;
 
 }
 
+.contacto{
+  background-color: transparent;
+  border: none;
+  font-size: larger;
+}
+
 .skills{
   width: 40% !important;
 }
@@ -209,10 +215,6 @@ text-align: justify;
   }
   
 
-  .cardo{
-    display: none;
-  }
-  
   .card-title {
    font-size: 14px;
   }

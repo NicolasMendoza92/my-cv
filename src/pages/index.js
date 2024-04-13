@@ -9,9 +9,10 @@ export default function Home() {
   return (
     <>
       <ImagenPrin />
-      <About />
-      <Cursos />
       <Projects/>
+      <Cursos />
+      <About />
+      
       <Icons />
     </>
   )

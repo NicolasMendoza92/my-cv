@@ -1,11 +1,11 @@
 
 
 import { useRouter } from "next/router";
-import { FaLinkedin } from 'react-icons/fa';
-import { FaGithub } from 'react-icons/fa';
 import Aos from "aos";
 import { useEffect } from "react";
 import "aos/dist/aos.css";
+import { FaCopy, FaEnvelope } from "react-icons/fa";
+import Swal from 'sweetalert2'
 
 
 
@@ -13,33 +13,48 @@ const About = () => {
 
     const router = useRouter();
 
+
     useEffect(() => {
         Aos.init({ duration: 1500 })
     }, []);
 
-    const goToLinkedin = () => {
-        const newWindow = window.open('https://www.linkedin.com/in/nicolasmendoza92/');
-        if (newWindow) newWindow.opener = null
+    const handleClick = (event) => {
+        event.preventDefault();
+        window.location.href = 'mailto:nicomendoza.92@gmail.com';
     }
 
-    const goToGit = () => {
-        const newWindow = window.open('https://github.com/NicolasMendoza92?tab=repositories');
-        if (newWindow) newWindow.opener = null
+    function myFunction() {
+        // Get the text field
+        var copyText = document.getElementById("myInput");
+
+
+        // Copy the text inside the text field
+        navigator.clipboard.writeText(copyText.value);
+
+        Swal.fire({
+            position: "center",
+            icon: "success",
+            title: "Text copy to the clipboard",
+            showConfirmButton: false,
+            timer: 1500
+          });
+
     }
 
     return (
         <div data-aos="fade-up" className='about-section'>
-            <div className='row'> 
-                <div className='col-6 justify-content-center'>
-                    <h2 className='m-2'> In the professional field </h2>
-                    <p className="desc-text">I'm a hard worker industrial engineer able to solve problems in an effective and creative way, I’m passionate about technology, innovation and process optimization. I'm trying every time to make things easier and simpler. I like challenges because they push me to be better and give it all . I like the team work and I always give my best in everything I do.</p>
-                </div>
-
+            <div className='row'>
                 <div className="col-6 justify-content-center">
-                    <h2 className='m-2'> On a personal note... </h2>
-                    <p className="desc-text">  I love sports, I play tennis and I like anime a lot. I enjoy traveling and spending time with my girlfriend and friends. I enjoy listening to music and playing guitar. </p>
-                    <button type="button" className="btn btn-outline-light m-2" onClick={goToLinkedin} title="Go to Linkedin"> <FaLinkedin /></button>
-                    <button type="button" className=" btn btn-outline-light m-2" onClick={goToGit} title="Go to Github"  > <FaGithub /></button>
+                    <h2 className='m-2'> About me... </h2>
+                    <p className="desc-text">I like the team work and I always give my best in everything I do.  I love sports, playing tennis and I really enjoy watching anime. I enjoy traveling and spending time with my girlfriend and friends. I enjoy listening to music and playing guitar. </p>
+                </div>
+                <div className="col-6 justify-content-center">
+                    <h2 className='m-2'> Contact me </h2>
+                    <div className="form-group mx-sm-3 mb-2">
+                        <input className="contacto" type="text" value="nicomendoza.92@gmail.com" id="myInput" />
+                    </div>
+                    <button onClick={myFunction} className="btn btn-outline-light m-2" title="Copy to clipboard" ><FaCopy /></button>
+                    <button onClick={handleClick} className="btn btn-outline-light m-2" title="Send an email" ><FaEnvelope /></button>
                 </div>
             </div>
         </div>

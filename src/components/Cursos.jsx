@@ -18,7 +18,7 @@ const Cursos = () => {
                         <div className="card-body">
                             <h5 className='card-title'>Professional Achievements</h5>
                             <p className='card-text'>
-                                Industrial Engineer &
+                                Master Industrial Engineer &
                                 Full Stack Developer
                             </p>
                         </div>
@@ -30,7 +30,7 @@ const Cursos = () => {
                         <div className="card-body">
                             <h5 className='card-title'>Digital Skills</h5>
                             <p className='card-text'>
-                                Microsoft Office/CRM Manager Apps/SAP/Corel Draw/SketchUp/Visual Studio/Pycharm/ Data analyst/Scrum/Jira/Agile
+                                Microsoft Office/CRM Manager Apps/SAP/Corel Draw/SketchUp/Power BI/Trello/Scrum/Jira/Agile
                             </p>
                         </div>
                     </div>

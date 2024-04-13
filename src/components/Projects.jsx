@@ -27,14 +27,6 @@ const Projects = () => {
         if (newWindow) newWindow.opener = null
     }
 
-    const goToInventory = () => {
-        const newWindow = window.open('https://allcot-inventary.vercel.app/');
-        if (newWindow) newWindow.opener = null
-    }
-    const goSourceInventory = () => {
-        const newWindow = window.open('https://github.com/NicolasMendoza92/allcot-inventary');
-        if (newWindow) newWindow.opener = null
-    }
     const linkTreePage = () => {
         const newWindow = window.open('https://link-tree-clone-cyan.vercel.app/');
         if (newWindow) newWindow.opener = null
@@ -51,26 +43,7 @@ const Projects = () => {
         const newWindow = window.open('https://github.com/NicolasMendoza92/CocoMad-React');
         if (newWindow) newWindow.opener = null
     }
-    const goToAllcot = () => {
-        const newWindow = window.open('https://allcottrading.com/');
-        if (newWindow) newWindow.opener = null
-    }
-    const goToRick = () => {
-        const newWindow = window.open('https://nextjs-demo-jade-pi.vercel.app/');
-        if (newWindow) newWindow.opener = null
-    }
-    const goSourceRick = () => {
-        const newWindow = window.open('https://github.com/NicolasMendoza92/Rick-MortyAPIRequest');
-        if (newWindow) newWindow.opener = null
-    }
-    const goToBlog = () => {
-        const newWindow = window.open('https://my-first-blog-nextjs-ruby.vercel.app/');
-        if (newWindow) newWindow.opener = null
-    }
-    const goSourceBlog = () => {
-        const newWindow = window.open('https://github.com/NicolasMendoza92/my-blog-nextjs');
-        if (newWindow) newWindow.opener = null
-    }
+
     const ecommerceTechFront = () => {
         const newWindow = window.open('https://ecommerce-front-rust.vercel.app/');
         if (newWindow) newWindow.opener = null
@@ -92,10 +65,10 @@ const Projects = () => {
 
     return (
         <div data-aos="fade-up" className="div-projects">
-            <h2 className='text-center m-3' style={{ color: 'white' }}>My projects</h2>
+            <h2 className='text-center m-3' style={{ color: 'white' }}>My main projects</h2>
             <div className='d-flex flex-wrap justify-content-center gap-3'>
                 <div className="d-flex justify-content-center">
-                    <div className="card cardo_project" style={{ width: '18rem', height: '18rem', background: 'white' }}>
+                    <div className="card " style={{ width: '18rem', height: '18rem', background: 'white' }}>
                         <img src="images/cocomad.png" className="card-img-top cardo" alt="..." />
                         <div className="card-body d-flex flex-column align-items-center justify-content-between">
                             <h5 className="card-title">Bakery E-commerce</h5>
@@ -108,7 +81,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className=" d-flex justify-content-center">
-                    <div className="card cardo_project" style={{ width: '18rem', height: '18rem', background: 'white' }}>
+                    <div className="card " style={{ width: '18rem', height: '18rem', background: 'white' }}>
                         <img src="images/appoinment.png" className="card-img-top cardo" alt="..." />
                         <div className="card-body d-flex flex-column align-items-center justify-content-between ">
                             <h5 className="card-title">OnePage Appointment</h5>
@@ -122,7 +95,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="d-flex justify-content-center">
-                    <div className="card cardo_project" style={{ width: '18rem', height: '18rem', background: 'white' }}>
+                    <div className="card " style={{ width: '18rem', height: '18rem', background: 'white' }}>
                         <img src="images/ecommerce.png" className="card-img-top cardo" alt="..." />
                         <div className="card-body d-flex flex-column align-items-center justify-content-between">
                             <h5 className="card-title">Tech store E-commerce</h5>
@@ -135,7 +108,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className=" d-flex justify-content-center">
-                    <div className="card cardo_project" style={{ width: '18rem', height: '18rem', background: 'white' }}>
+                    <div className="card " style={{ width: '18rem', height: '18rem', background: 'white' }}>
                         <img src="images/dashboardadmin.png" className="card-img-top cardo" alt="..." />
                         <div className="card-body d-flex flex-column align-items-center justify-content-between">
                             <h5 className="card-title">Tech store adminboard</h5>
@@ -149,7 +122,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="d-flex justify-content-center">
-                    <div className="card cardo_project" style={{ width: '18rem', height: '18rem', background: 'white' }}>
+                    <div className="card " style={{ width: '18rem', height: '18rem', background: 'white' }}>
                         <img src="images/kanban.png" className="card-img-top cardo" alt="..." />
                         <div className="card-body d-flex flex-column align-items-center justify-content-between">
                             <h5 className="card-title">Kanban app</h5>
@@ -162,7 +135,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="d-flex justify-content-center">
-                    <div className="card cardo_project" style={{ width: '18rem', height: '18rem', background: 'white' }}>
+                    <div className="card " style={{ width: '18rem', height: '18rem', background: 'white' }}>
                         <img src="images/linktree.png" className="card-img-top cardo" alt="..." />
                         <div className="card-body d-flex flex-column align-items-center justify-content-between">
                             <h5 className="card-title">Link-Tree clone app</h5>
@@ -174,43 +147,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className=" d-flex justify-content-center">
-                    <div className="card cardo_project" style={{ width: '18rem', height: '18rem', background: 'white' }}>
-                        <img src="images/stock.png" className="card-img-top cardo" alt="..." />
-                        <div className="card-body d-flex flex-column align-items-center justify-content-between">
-                            <h5 className="card-title">Stock management </h5>
-                            <p className="card-text">Utility app - Operational page</p>
-                            <p className="card-note"><b>Login as:</b> demo@gmail.com <b>pass:</b> Demo1234</p>
-                            <div className="d-flex flex-wrap gap-1 mt-2">
-                                <button onClick={goToInventory} className="btn-seeweb">See web</button>
-                                <button onClick={goSourceInventory} className="btn-code">Source code</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className=" d-flex justify-content-center">
-                    <div className="card cardo_project" style={{ width: '18rem', height: '18rem', background: 'white' }}>
-                        <img src="images/blog.png" className="card-img-top cardo" alt="..." />
-                        <div className="card-body d-flex flex-column align-items-center justify-content-between">
-                            <h5 className="card-title">Blog page project</h5>
-                            <p className="card-text">Create & edit posts</p>
-                            <div className="d-flex flex-wrap gap-1 mt-2">
-                                <button onClick={goToBlog} className="btn-seeweb">See web</button>
-                                <button onClick={goSourceBlog} className="btn-code">Source code</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className=" d-flex justify-content-center">
-                    <div className="card cardo_project" style={{ width: '18rem', height: '18rem', background: 'white' }}>
-                        <img src="images/wordpress.png" className="card-img-top cardo" alt="..." />
-                        <div className="card-body d-flex flex-column align-items-center justify-content-between">
-                            <h5 className="card-title">Business page</h5>
-                            <p className="card-text">Wordpress</p>
-                            <button onClick={goToAllcot} className="btn-seeweb">See web</button>
-                        </div>
-                    </div>
-                </div>
+                
 
             </div >
         </div>
