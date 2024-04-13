@@ -60,6 +60,7 @@ const Icons = () => {
 
             </div>
             <div className='col-12 col-md-6 text-center p-4'>
+            <h2 className='m-2 text-center '>Fullstack skills</h2>
                 <img className="img-fluid w-75" src="images/fullstack_icons.png" />
             </div>
         </div>

@@ -53,7 +53,7 @@ const ImagenPrin = () => {
                 <div>
                     <button type="button" className="btn btn-outline-info m-2" onClick={goToLinkedin} title="Go to Linkedin"> <FaLinkedin /></button>
                     <button type="button" className=" btn btn-outline-dark m-2" onClick={goToGit} title="Go to Github"  > <FaGithub /></button>
-                    <button type="button" className=" btn btn-outline-danger m-2" onClick={openPDF} title="See CV"  > <FaFilePdf /></button>
+                    <button type="button" className=" btn btn-outline-danger m-2" onClick={openPDF} title="Go to my CV"  > <FaFilePdf /></button>
                 </div>
 
             </div>

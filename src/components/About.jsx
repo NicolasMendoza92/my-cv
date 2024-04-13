@@ -32,12 +32,11 @@ const About = () => {
         navigator.clipboard.writeText(copyText.value);
 
         Swal.fire({
-            position: "center",
-            icon: "success",
-            title: "Text copy to the clipboard",
+            position: "bottom-end",
+            title: "Copy to the clipboard",
             showConfirmButton: false,
             timer: 1500
-          });
+        });
 
     }
 
@@ -50,9 +49,10 @@ const About = () => {
                 </div>
                 <div className="col-6 justify-content-center">
                     <h2 className='m-2'> Contact me </h2>
-                    <div className="form-group mx-sm-3 mb-2">
-                        <input className="contacto" type="text" value="nicomendoza.92@gmail.com" id="myInput" />
+                    <div className="flex">
+                        <input className="input-mail w-100 text-center disabled" type="text" value="nicomendoza.92@gmail.com" id="myInput" />
                     </div>
+
                     <button onClick={myFunction} className="btn btn-outline-light m-2" title="Copy to clipboard" ><FaCopy /></button>
                     <button onClick={handleClick} className="btn btn-outline-light m-2" title="Send an email" ><FaEnvelope /></button>
                 </div>
