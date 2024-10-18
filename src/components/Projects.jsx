@@ -60,6 +60,15 @@ const Projects = () => {
         const newWindow = window.open('https://github.com/NicolasMendoza92/ecommerce-admin');
         if (newWindow) newWindow.opener = null
     }
+    const financeApp = () => {
+        const newWindow = window.open('https://finance-tracker-app-nu.vercel.app/');
+        if (newWindow) newWindow.opener = null
+    }
+    const financeAppCode = () => {
+        const newWindow = window.open('https://github.com/NicolasMendoza92/finance-tracker-app');
+        if (newWindow) newWindow.opener = null
+    }
+
 
     // col 12 col-md-6  col-lg-4 
 
@@ -103,6 +112,19 @@ const Projects = () => {
                             <div className="d-flex flex-wrap gap-1 mt-2">
                                 <button onClick={ecommerceTechFront} className="btn-seeweb">See web</button>
                                 <button onClick={goSourceTech} className="btn-code">Source code</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className=" d-flex justify-content-center">
+                    <div className="card " style={{ width: '18rem', height: '18rem', background: 'white' }}>
+                        <img src="images/finance_img.png" className="card-img-top cardo" alt="..." />
+                        <div className="card-body d-flex flex-column align-items-center justify-content-between ">
+                            <h5 className="card-title">Finance Tracker</h5>
+                            <p className="card-text">Next JS, Prisma & Clerk</p>
+                            <div className="d-flex flex-wrap gap-1 mt-2">
+                                <button onClick={financeApp} className="btn-seeweb">See web</button>
+                                <button onClick={financeAppCode} className="btn-code">Source code</button>
                             </div>
                         </div>
                     </div>

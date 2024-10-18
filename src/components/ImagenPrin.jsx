@@ -28,7 +28,7 @@ const ImagenPrin = () => {
 
     const openPDF = () => {
         // URL del PDF cargado previamente
-        const pdfURL = '/files/CV_Nicolas_Mendoza.pdf';
+        const pdfURL = '/files/CV_Nicolas_Mendoza_FS.pdf';
 
         // Abrir el PDF en una nueva pestaña del navegador
         window.open(pdfURL, '_blank');
