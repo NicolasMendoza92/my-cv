@@ -10,10 +10,10 @@ const Cursos = () => {
     },[]);
 
     return (
-        <div data-aos="fade-up" className="contenedor-divs">
+        <div data-aos="fade-up" className="container">
             <div className='row m-4'>
                 <div className="col-12 col-md-4 col-lg-4 d-flex justify-content-center">
-                    <div className='align-items-center' style={{ width: '20rem', border: 'none', background:'none' }}>
+                    <div className='card align-items-center' style={{ width: '20rem', border: 'none', background:'none' }}>
                         <img className='card-img-top skills' variant="top" src="images/grad.png" />
                         <div className="card-body">
                             <h5 className='card-title'>Professional Achievements</h5>

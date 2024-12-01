@@ -42,17 +42,16 @@ const About = () => {
 
     return (
         <div data-aos="fade-up" className='about-section'>
-            <div className='row'>
-                <div className="col-6 justify-content-center">
+            <div className='container flex '>
+                <div className="w-75  mx-auto">
                     <h2 className='m-2'> About me... </h2>
                     <p className="desc-text">I like the team work and I always give my best in everything I do.  I love sports, playing tennis and I really enjoy watching anime. I enjoy traveling and spending time with my girlfriend and friends. I enjoy listening to music and playing guitar. </p>
                 </div>
-                <div className="col-6 justify-content-center">
+                <div className="">
                     <h2 className='m-2'> Contact me </h2>
                     <div className="flex">
                         <input className="input-mail w-100 text-center disabled" type="text" value="nicomendoza.92@gmail.com" id="myInput" />
                     </div>
-
                     <button onClick={myFunction} className="btn btn-outline-light m-2" title="Copy to clipboard" ><FaCopy /></button>
                     <button onClick={handleClick} className="btn btn-outline-light m-2" title="Send an email" ><FaEnvelope /></button>
                 </div>
